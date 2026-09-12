@@ -44,6 +44,14 @@ import com.peecock.compose.persist.persistList
 import com.peecock.piped.models.Instance
 import com.peecock.piped.Piped
 
+import org.schabi.newpipe.extractor.NewPipe
+import org.schabi.newpipe.extractor.search.SearchInfoList
+import org.schabi.newpipe.extractor.stream.StreamInfo
+import org.schabi.newpipe.extractor.stream.StreamInfoItem
+import org.schabi.newpipe.extractor.stream.MusicStreamInfo
+import org.schabi.newpipe.extractor.exceptions.ExtractionException
+
+
 import com.peecock.ymusic.R
 import com.peecock.ymusic.enums.CheckUpdateState
 import com.peecock.ymusic.enums.NavigationBarPosition
