@@ -143,7 +143,6 @@ dependencies {
     implementation(libs.androidmaterial)
     implementation(libs.navigation)
     implementation(libs.timber)
-    
     implementation(libs.logging.interceptor)
     implementation(libs.math3)
     implementation(libs.toasty)
