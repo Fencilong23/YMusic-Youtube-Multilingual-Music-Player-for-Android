@@ -143,7 +143,7 @@ dependencies {
     implementation(libs.androidmaterial)
     implementation(libs.navigation)
     implementation(libs.timber)
-    implementation(libs.crypto)
+    
     implementation(libs.logging.interceptor)
     implementation(libs.math3)
     implementation(libs.toasty)
@@ -151,13 +151,7 @@ dependencies {
 
     implementation(libs.room)
     ksp(libs.room.compiler)
-
-    implementation(projects.innertube)
-    implementation(projects.innertubes)
-    implementation(projects.kugou)
-    implementation(projects.lrclib)
-    implementation(projects.piped)
-
+   implementation("com.github.TeamNewPipe:NewPipeExtractor:v0.26.3")
 
     coreLibraryDesugaring(libs.desugaring)
 }
