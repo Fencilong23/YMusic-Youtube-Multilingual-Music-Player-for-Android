@@ -33,7 +33,12 @@ import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.offline.Download
 import androidx.media3.exoplayer.offline.DownloadService
 import coil.compose.AsyncImage
-import com.peecock.innertube.Innertube
+import org.schabi.newpipe.extractor.NewPipe
+import org.schabi.newpipe.extractor.search.SearchInfoList
+import org.schabi.newpipe.extractor.stream.StreamInfo
+import org.schabi.newpipe.extractor.stream.StreamInfoItem
+import org.schabi.newpipe.extractor.stream.MusicStreamInfo
+import org.schabi.newpipe.extractor.exceptions.ExtractionException
 import com.peecock.ymusic.Database
 import com.peecock.ymusic.R
 import com.peecock.ymusic.models.Song
